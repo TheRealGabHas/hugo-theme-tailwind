@@ -41,7 +41,7 @@ git submodule update --remote
 You can use the following configuration for basic usage.
 
 ```toml
-baseURL = "https://examnple.com/"
+baseURL = "https://example.com/"
 title = "Hugo Theme Tailwind Example Site"
 author = "Your Name"
 copyright = "Your Name"
