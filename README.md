@@ -1,5 +1,7 @@
 # Hugo Theme Tailwind
 
+<img align="right" width="128" alt="logo" src="https://raw.githubusercontent.com/tomowang/hugo-theme-tailwind/main/static/logo.svg">
+
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/tomowang/hugo-theme-tailwind/.github%2Fworkflows%2Fdeploy.yaml)
 ![MIT license](https://img.shields.io/github/license/tomowang/hugo-theme-tailwind)
 [![gohugo](https://img.shields.io/badge/Made_with-Hugo-blue)](https://gohugo.io/)
@@ -9,6 +11,8 @@
 Hugo theme built using [Tailwind CSS](https://tailwindcss.com/), mostly for bloggers.
 
 Check [https://hugo-theme-tailwind.tomo.dev/](https://hugo-theme-tailwind.tomo.dev/) for demo.
+
+![screenshot](https://raw.githubusercontent.com/tomowang/hugo-theme-tailwind/main/images/screenshot.png)
 
 ## Features
 
@@ -22,6 +26,7 @@ Check [https://hugo-theme-tailwind.tomo.dev/](https://hugo-theme-tailwind.tomo.d
  * Responsive design
  * Multilingual
  * Default image process for lazy load and srcset
+ * Search (by using [fuse.js](https://fusejs.io/) and [mark.js](https://markjs.io/))
 
 ## Installation
 
@@ -92,6 +97,7 @@ Some of the configuration options are:
  * `params.taxonomies.icons`: icons for taxonomies (categories, tags, series, etc.).
  * `params.giscus`: giscus settings
  * `params.social_media`: social media links shown in the footer
+ * `params.search`: search settings
 
 For social media link data, you can refer entries in `params.social_media.items`
 (You can add more or disable exsited entries in `params.social_media.items`).
